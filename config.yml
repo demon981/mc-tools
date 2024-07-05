@@ -1,0 +1,9 @@
+mysql:
+  host: localhost
+  port: 3306
+  database: dev_Tools
+  user: root
+  password: haslo
+motd:
+  linia1: 'linia 1'
+  linia2: 'linia 2'

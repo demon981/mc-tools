@@ -1,0 +1,97 @@
+name: dev_Tools
+main: dev_Tools.demonek.Main
+version: 0.1
+author: DeMoNeK_
+description: Narzedzia na twoj serwer!
+permissions:
+  dev_Tools.*:
+    default: op
+    children:
+      dev_Tools.cmd.*: true
+      dev_Tools.socialspy: true
+      dev_Tools.bypass: true
+  dev_Tools.cmd.*:
+    default: op
+    children:
+      dev_Tools.cmd.broadcast: true
+      dev_Tools.cmd.gamemode: true
+      dev_Tools.cmd.gamemode.other: true
+      dev_Tools.cmd.helpop: true
+      dev_Tools.cmd.helpop.read: true
+      dev_Tools.cmd.heal: true
+      dev_Tools.cmd.heal.other: true
+      dev_Tools.cmd.feed: true
+      dev_Tools.cmd.feed.other: true
+      dev_Tools.cmd.fly: true
+      dev_Tools.cmd.fly.other: true
+      dev_Tools.cmd.tp: true
+      dev_Tools.cmd.tp.other: true
+      dev_Tools.cmd.tphere: true
+      dev_Tools.cmd.clearinv: true
+      dev_Tools.cmd.clearinv.other: true
+      dev_Tools.cmd.enchant: true
+      dev_Tools.cmd.tppos: true
+      dev_Tools.cmd.chat: true
+      dev_Tools.cmd.god: true
+      dev_Tools.cmd.god.other: true
+      dev_Tools.cmd.sethome: true
+      dev_Tools.cmd.home: true
+      dev_Tools.cmd.gildia: true
+      dev_Tools.cmd.pomoc: true
+      dev_Tools.cmd.spawn: true
+  dev_Tools.cmd.broadcast:
+    default: false
+  dev_Tools.cmd.gamemode:
+    default: false
+  dev_Tools.cmd.gamemode.other:
+    default: false
+  dev_Tools.cmd.helpop:
+    default: false
+  yamsetools.cmd.helpop.read:
+    default: false
+  dev_Tools.cmd.heal:
+    default: false
+  dev_Tools.cmd.heal.other:
+    default: false
+  dev_Tools.cmd.feed:
+    default: false
+  dev_Tools.cmd.feed.other:
+    default: false
+  dev_Tools.cmd.fly:
+    default: false
+  dev_Tools.cmd.fly.other:
+    default: false
+  dev_Tools.cmd.tp:
+    default: false
+  dev_Tools.cmd.tp.other:
+    default: false
+  dev_Tools.cmd.tphere:
+    default: false
+  dev_Tools.cmd.clearinv:
+    default: false
+  dev_Tools.cmd.clearinv.other:
+    default: false
+  dev_Tools.cmd.enchant:
+    default: false
+  dev_Tools.cmd.tppos:
+    default: false
+  dev_Tools.cmd.chat:
+    default: false
+  dev_Tools.cmd.god:
+    default: false
+  dev_Tools.cmd.god.other:
+    default: false
+  dev_Tools.cmd.sethome:
+    default: false
+  dev_Tools.cmd.home:
+    default: false
+  dev_Tools.socialspy:
+    default: false
+  dev_Tools.bypass:
+    default: false
+  dev_Tools.cmd.gildia:
+    default: false
+  dev_Tools.cmd.pomoc:
+    default: false
+  dev_Tools.cmd.spawn:
+    default: false
